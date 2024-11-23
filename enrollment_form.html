@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Enrollment Form</title>
+  <link rel="stylesheet" href="enrollment_form.css"> 
+</head>
+<body>
+  <h1>Student Enrollment Form</h1>
+
+  <h3>Instructions:</h3>
+    <li>Fill in the form fields.</li>
+    <li>Check your interests.</li>
+    <li>Click "Enroll Now" to submit.</li>
+    <h4></h4>
+
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    
+    <label>Sex:</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="sex" value="Male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="sex" value="Female">
+
+    <label for="course">Course Options:</label>
+    <h5></h5>
+    <select id="course" name="course" required>
+      <option value="BSIT">BSIT</option>
+      <option value="BSSW">BSSW</option>
+      <option value="BSPA">BSPA</option>
+      <option value="ABELS">ABELS</option>
+      <option value="BSE">BSE</option>
+      <option value="BSAIS">BSAIS</option>
+      <option value="OTHERS">OTHERS</option>
+    </select>
+
+    <label>Interests:</label>
+    <input type="checkbox" id="webdev" name="interests" value="Web Development">
+    <label for="webdev">Web Development</label>
+    <input type="checkbox" id="datasci" name="interests" value="Data Science">
+    <label for="datasci">Data Science</label>
+    <input type="checkbox" id="networking" name="interests" value="Networking">
+    <label for="networking">Networking</label>
+    <input type="checkbox" id="graphic" name="interests" value="Graphic Design">
+    <label for="graphic">Graphic Design</label>
+
+    <button type="submit">Enroll Now</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Sex</th>
+        <th>Course</th>
+        <th>Interests</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Mark Ernest</td>
+        <td>mark_ernest@gmail.com</td>
+        <td>20</td>
+        <td>Male</td>
+        <td>BSIT</td>
+        <td>Web Development, Data Science</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Martin Ryan</td>
+        <td>martinryan123@yahoo.com</td>
+        <td>20</td>
+        <td>Male</td>
+        <td>BSIT</td>
+        <td>Networking</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Reniel Obcemea</td>
+        <td>reniel_obcemea32@gmail.com
+        <td>20</td>
+        <td>Male</td>
+        <td>BSIT</td>
+        <td>Graphic Design</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Reyjohn Mansilungan</td>
+        <td>reyjhon_mansi1234@gmail.com</td>
+        <td>20</td>
+        <td>Male</td>
+        <td>BSIT</td>
+        <td>Web Development, Data Science</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Jerome Bontoc</td>
+        <td>jerome_bontoc123@gmail.com</td>
+        <td>20</td>
+        <td>Male</td>
+        <td>BSIT</td>
+        <td>Networking, Graphic Design</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
